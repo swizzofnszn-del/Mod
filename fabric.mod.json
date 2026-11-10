@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "paybackplus",
+  "version": "${version}",
+  "name": "PayBack Plus",
+  "description": "Auto pay-back with chat multiplier and a customisable menu (colours + background image).",
+  "environment": "client",
+  "entrypoints": { "client": ["com.paybackplus.PayBackMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
